@@ -1,0 +1,5 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Laboratorio SQLi</title></head>
+<body><main><h1>Laboratorio SQL Injection</h1><p>Versión: <strong>{{ modo }}</strong>. Datos ficticios para uso local.</p>
+<form method="post"><p><label>Usuario <input name="usuario" required></label></p><p><label>Clave <input name="clave" type="password" required></label></p><button>Ingresar</button></form>
+{% if resultado %}<p id="resultado">{{ resultado }}</p>{% endif %}</main></body></html>
